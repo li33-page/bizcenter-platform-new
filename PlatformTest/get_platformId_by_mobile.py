@@ -11,7 +11,7 @@ def is_platform_user(phone:str=''):
     db = pymysql.connect(host='testdb.61info.com',
     # db = pymysql.connect(host='db.preprod.61draw.com',
                          user='root',
-                         password='dbtest',
+                         password='***',
                          database='i61-bizcenter-usercenter')
 
     # 使用 cursor() 方法创建一个游标对象 cursor
